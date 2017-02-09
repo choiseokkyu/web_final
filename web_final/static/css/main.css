@@ -6,16 +6,29 @@
 body {
     padding-top: 50px;
 }
-
+.hello {
+    margin-top: 170px;
+    text-align: center;
+    font-size: 50px;
+}
 /*
  * Global add-ons
  */
-
+.black { text-decoration : none;
+    color : black; }
 .sub-header {
     padding-bottom: 10px;
     border-bottom: 1px solid #eee;
 }
+.main {
+    background-color: #adadad;
+    height: 800px;
 
+}
+.images{
+    width: 276px;
+    height: 183px;
+}
 /*
  * Top navigation
  * Hide default border to remove 1px line.
