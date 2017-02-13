@@ -1,23 +1,22 @@
-"""web_final URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/1.10/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.conf.urls import url, include
-    2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
-"""
 from django.conf.urls import url
 from django.contrib import admin
-from final_project import views
 
+from final_project import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^Introduce$', views.introduce name='introduce')
+    url(r'^$', views.introduce),
+    url(r'^main/$', views.main),
+    url(r'^about/$', views.about),
+    url(r'^project/$', views.project),
+    url(r'^contact/$', views.contact),
+    url(r'^project1/$',views.project1),
+url(r'^project2/$',views.project2),
+url(r'^project3/$',views.project3),
+url(r'^project4/$',views.project4),
+url(r'^project5/$',views.project5),
+url(r'^project6/$',views.project6),
+url(r'^project7/$',views.project7),
+url(r'^project8/$',views.project8),
+url(r'^project9/$',views.project9),
 ]
+

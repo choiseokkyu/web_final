@@ -1,41 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Team2 Lab3 | OneDrive Mockup</title>
+{% extends "index.html" %}
+{% block title %}
+main
+{% endblock %}
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../static/css/main.css">
-    <link href="../static/css/album.css" rel="stylesheet">
-</head>
-
-<body>
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="http://localhost:63343/web_final/template/main.html?_ijt=2q2i3u73tio7vrmqebjedfhv3v">Project</a></li>
-                <li><a href="http://localhost:63343/web_final/template/about.html?_ijt=o6pr1tnpjtse3d0a4o4nh69lkk">About </a></li>
-                <li><a href="http://localhost:63343/web_final/template/contact.html?_ijt=3utcgrh134oajih12bnidqgoh9">Contact &nbsp; </a></li>
-
-
-            </ul>
-
-        </div>
-    </div>
-</nav>
+{% block content %}
 
     <section class="jumbotron text-center">
       <div class="container">
         <h1 class="jumbotron-heading">Project</h1>
+      </div>
 
     </section>
 
@@ -43,50 +16,50 @@
       <div class="container">
 
         <div class="row">
-          <div class="card"><a href="http://localhost:63343/web_final/template/project1.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project1">
             <img src="../static/image/1.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project2.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project2">
             <img src="../static/image/2.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project3.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project3">
             <img src="../static/image/3.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
 
-          <div class="card"><a href="http://localhost:63343/web_final/template/project4.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project4">
             <img src="../static/image/4.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project5.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project5">
             <img src="../static/image/5.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project6.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project6">
             <img src="../static/image/6.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
 
-          <div class="card"><a href="http://localhost:63343/web_final/template/project7.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project7">
             <img src="../static/image/7.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project8.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project8">
             <img src="../static/image/8.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
           </div>
-          <div class="card"><a href="http://localhost:63343/web_final/template/project9.html?_ijt=b5eq4q41oe3rctn2viua2cgo0e">
+          <div class="card"><a href="/project9">
             <img src="../static/image/9.jpeg" class="images center-block">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </a>
@@ -106,7 +79,7 @@
     </footer>
 
 
-
+{%endblock content%}
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -117,5 +90,3 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
-</body>
-</html>
