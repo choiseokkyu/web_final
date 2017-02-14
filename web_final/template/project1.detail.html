@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{% block title %}{% endblock %} Team2 Lab3 | OneDrive Mockup</title>
+    <title>Team2 Lab3 | OneDrive Mockup</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,18 +14,15 @@
     <link rel="stylesheet" type="text/css" href="../static/css/main.css">
     <link href="../static/css/album.css" rel="stylesheet">
 </head>
-
 <body>
-
-<nav class="navbar navbar-inverse navbar-fixed-top" href="/">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
 
-{#        <div id="navbar" class="navbar-collapse collapse">  #}
+        <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/project">Project</a></li>
-                <li><a href="/about">About </a></li>
-                <li><a href="/contact">Contact &nbsp; </a></li>
-                <li><a href="/login">Setting &nbsp; </a></li>
+                <li><a href="http://localhost:63343/web_final/template/main.html?_ijt=2q2i3u73tio7vrmqebjedfhv3v">Project</a></li>
+                <li><a href="http://localhost:63343/web_final/template/about.html?_ijt=3utcgrh134oajih12bnidqgoh9">About </a></li>
+                <li><a href="http://localhost:63343/web_final/template/contact.html?_ijt=3utcgrh134oajih12bnidqgoh9">Contact &nbsp; </a></li>
 
 
             </ul>
@@ -33,9 +30,12 @@
         </div>
     </div>
 </nav>
+<img src="../static/image/1.jpeg" class="main_image center-block">
+
+<p class="text-danger font">This is the most beautiful picture. nothing is more beautiful than this picture</p>
 
 
-{% block content %}{% endblock %}
+
 
 
 
@@ -49,4 +49,3 @@
 
 </body>
 </html>
-
