@@ -31,4 +31,11 @@ def project9(request):
     return render(request,"project9.html")
 
 def login(request):
-    return render(request,"login_form.html")
+    return render(request,'login_form.html')
+
+def login_check(request):
+    print("Hello")
+    if request.method =="POST":
+        user = request.POST["user"]
+        print(user)
+    return render(request,'index.html')
