@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
+def index(request):
+    return render(request, "index.html")
 def introduce(request):
     return render(request, "introduce.html")
 def main(request):
@@ -34,7 +36,7 @@ def login(request):
     return render(request,'login_form.html')
 
 def login_check(request):
-    print("Hello")
+
     if request.method =="POST":
         user = request.POST["user"]
         print(user)
