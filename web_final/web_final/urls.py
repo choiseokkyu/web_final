@@ -19,5 +19,5 @@ url(r'^project7/$',views.project7),
 url(r'^project8/$',views.project8),
 url(r'^project9/$',views.project9),
 url(r'^login_check$',views.login_check, name='login_check'),
-]
 
+]

@@ -42,4 +42,3 @@ def login_check(request):
         print(user)
 
     return render(request,'main.html')
-

@@ -7,10 +7,15 @@ body {
     padding-top: 50px;
 }
 .hello {
-    margin-top: 170px;
+    font-family: bold;
+    margin-top: 200px;
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
+
+
+
+
 /*
  * Global add-ons
  */
@@ -154,6 +159,7 @@ body {
 
 
 }
+
 .search{margin-left:17px;}
 /*
  * Placeholder dashboard ideas
@@ -272,3 +278,9 @@ body {
 .login-help{
   font-size: 12px;
 }
+
+
+/*
+ * footer
+ */
+ #p1 {background-color: grey;}
