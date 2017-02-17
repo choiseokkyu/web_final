@@ -41,4 +41,4 @@ def login_check(request):
 
         print(user)
 
-    return render(request,'main.html')
+    return render(request,'setting.html')
