@@ -1,2 +1,7 @@
-"# web_final" 
-checkout merge conflict with same file when another change it differently
+```
+$pip install google-cloud-bigquery
+```
+
+```
+$pip install pandas-gbq
+```
