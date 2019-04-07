@@ -1,8 +1,8 @@
-path 설정
+<p><br>path 설정</p>
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
 ```
-or
+<p><br>or</p>
 ```
 from google.cloud import bigquery
 
